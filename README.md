@@ -16,7 +16,7 @@ Playwright is a new automations framework getting lot of tractions recenly and c
 
 - Open Terminal
 - Go to the folder you want to clone the project eg: `cd downloads`
-- Clone the Repo ``
+- Clone the Repo `https://github.com/Plabanm/OrangeHRMLive.git`
 - Go to project folder `cd orangehrmlive` folder
 - Use `npm i` to install all dependecies
 - Use `npx playwright install` to install browsers
