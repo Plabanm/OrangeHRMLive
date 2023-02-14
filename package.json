@@ -1,0 +1,33 @@
+{
+  "name": "orangehrmlive",
+  "version": "1.0.0",
+  "description": "Orange_HRM_Live UI Automation with playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:login": "npx playwright test tests/login.spec.ts",
+    "test:pim": "npx playwright test tests/pim.spec.ts",
+    "test:smoke": "npx playwright test --grep @smoke",
+    "test:headed": "npx playwright test --grep @smoke --headed",
+    "test:chrome": "npx playwright test --grep @smoke --headed --project=chromium ",
+    "test:webkit": "npx playwright test --grep @smoke --headed --project=webkit ",
+    "test:firefox": "npx playwright test --grep @smoke --headed --project=webkit ",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "OrangeHRM",
+    "Live",
+    "UI",
+    "Automation",
+    "Framework",
+    "playwright"
+  ],
+  "author": "Plaban Majumder",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0"
+  },
+  "dependencies": {
+    "prettier": "^2.8.4"
+  }
+}
